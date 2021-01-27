@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap'); 
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif; 
+    background-color: rgb(181, 240, 191);
+  }
+  
+  canvas {
+    background-image: url("./images/full-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1{
+    font-size: 70px;
+    color: rgb(5, 75, 34);
+    text-shadow: 2px 2px black;
+    justify-content: center;
+  }
+  
+  #game-board {
+    float: left;
+    border-radius: 10px solid black; 
+  }
+  
+  .intro-text {
+    color: #014e28;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+  }

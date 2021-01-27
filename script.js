@@ -3,12 +3,9 @@ window.onload = () => {
     let context = canvas.getContext("2d");
     let id = null;
     let start = false;
-  
-    //Sounds
-    // let eatSound = new Audio();
-    // eatSound.src = "./assets/EatSound.mp3";
-      let gameoverSound = new Audio();
-      gameoverSound.src = "./sounds/lose.mp3";
+
+     let gameoverSound = new Audio();
+     gameoverSound.src = "./sounds/lose.mp3";
   
     class Player {
       constructor(x, y, width, height) {
@@ -206,7 +203,6 @@ window.onload = () => {
   
       if (crashed) {
         if (lifes > 0) {
-        //   eatSound.play();
           veg.forEach((element, index) => {
             veg.splice(index, 1);
             lifes -= 1;
@@ -230,7 +226,6 @@ window.onload = () => {
   
       if (catched) {
         if (lifes >= 0) {
-        //   eatSound.play();
           meats.forEach((element, index) => {
             meats.splice(index, 1);
             lifes += 1;

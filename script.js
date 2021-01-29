@@ -7,6 +7,7 @@ window.onload = () => {
      let gameoverSound = new Audio();
      gameoverSound.src = "./sounds/lose.mp3";
   
+    //Jogador
     class Player {
       constructor(x, y, width, height) {
         this.x = x;
@@ -83,6 +84,7 @@ window.onload = () => {
       "./images/hot_dog_01.png"
     ];
   
+    //Cria obstáculos
     class Obstacle {
       constructor(x, image) {
         this.x = x;

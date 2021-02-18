@@ -1,5 +1,6 @@
 # Boy-Hates-Broccoli
-#Project made for the IronHack web development course!
+*Project made for the IronHack web development course!
+
 *Boy-Hates-Broccoli* is a game built in HTML, CSS, and JavaScript.
 
 > Click [HERE](https://edulp99.github.io/Boy-Hates-Broccoli/) to play!
